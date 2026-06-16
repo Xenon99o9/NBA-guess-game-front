@@ -1,0 +1,14 @@
+*{
+    margin: 2%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.BIG_RED {
+    color: black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50px;
+}
