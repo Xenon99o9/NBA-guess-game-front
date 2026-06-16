@@ -10,10 +10,10 @@
 			<h1>NBA Guess Game</h1>
 		</header>
 		<main>
-            <h2><span id="Name"></span></h2>
+            <h2><span id="name"></span></h2>
 
 			
-			<img src="url = image" class="card-img-top">
+			<img src="" id="image" class="card-img-top">
 
 			<div class="White-page">
 
@@ -21,18 +21,20 @@
 
             <h2>Question :</h2>
 
-            <form action="/traitement" method="post">
-            <label for="team"><span id ="question"></span></label>
 
-            <select id="team" name="pays">
-                <option value="leaker">Leaker</option>
-                <option value="warrior">Warrior</option>
-                <option value="sun">Sun</option>
-            </select>
-            <button type="submit" class="BIG_RED">Post</button>
-            </form>
+            <label for="team"><span id="question"></span></label>
 
-        
+            <form id="guess-form">
+				<label for="solutions">
+					<span id="question"></span>
+				</label>
+
+				<select id="solutions"></select>
+
+				<button id="BIG_RED" type="submit" class="BIG_RED">Post</button>
+			</form>
+
+			<p id="result"></p>
 		</main>
 
 		<footer>
